@@ -1,0 +1,109 @@
+.App {
+  display: flex;
+  text-align: center;
+  background-color: #23252C;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding-top: 30px;
+  
+}
+
+.container {
+  width: 317px;
+  background-color: #1A1B21;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.header h1, .header h4, .header p{
+  margin: 3px;
+}
+
+.header h4 {
+  color: #F3BF99;
+}
+
+.profile {
+  height: 317px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.my_website {
+  color: white;
+  text-decoration: none;
+}
+
+.links {
+  padding-top: 8px;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 20px;
+}
+
+.button {
+  background-color: #5093E2;
+  border: none;
+  color: white;
+  /* padding: 0 4px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;  
+  font-size: 14px;
+  width: 115px;
+  height: 35px;
+  border-radius: 6px;
+  margin: 15px 5px;
+  cursor: pointer;
+}
+
+.email{
+  background-color: grey;
+}
+
+.--fa-li-margin {
+  margin-right: 5px;
+}
+
+.linkedIn-btn {
+  background-color: #5093E2;
+}
+
+main {
+  margin-bottom: 20px;
+}
+
+main .about, main .interests {
+  display: inline-flex;
+  align-items: start;
+  justify-content: flex-start;
+  flex-direction: column;
+flex-wrap: wrap;
+  margin: 5px 20px;
+}
+
+main .about h2, main .interests h2 {
+  margin: 0;
+  font-size: 16px;
+}
+
+main .about p, main .interests p {
+  margin: 0;
+  font-size: 14px;
+  text-align: left;
+  
+}
+
+footer {
+  /* background-color: #161619; */
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 40px;
+  padding: 0 20px;
+  
+}
